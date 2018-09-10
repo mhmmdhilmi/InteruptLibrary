@@ -12,10 +12,9 @@ You can use this library for decoding PWM value from Pixhawk to arduino
 
 ### Installing
 
-
-`$ git clone ~mhmmdhilmi/InteruptLibrary.git`
-
-* Open Interupt.ino
+* Download the library via `$ git clone ~mhmmdhilmi/InteruptLibrary.git` or https://github.com/mhmmdhilmi/InteruptLibrary/archive/master.zip
+* (In the Arduino IDE) Sketch > Include Library > Add .ZIP Library > select the Interupt folder from the cloned repository > Open
+* File > Examples > Interupt > Interupt
 * Change the pin based on connected pin between arduino and pixhawk
 * Upload the program to arduino
 
